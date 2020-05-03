@@ -9,6 +9,9 @@ apt-get install -y python3 python-dev python3-dev build-essential libssl-dev lib
 #install sass
 apt-get install -y sass
 
+#install redis server
+apt-get install -y redis-server
+
 #install postgress mysql
 apt-get install -y libpq-dev
 
