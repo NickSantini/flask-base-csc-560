@@ -25,10 +25,11 @@ else
 	echo -n SECRET_KEY= >> ./config.env && python3 -c "import secrets; print(secrets.token_hex(16))" >> ./config.env
 fi
 
+#these must be done in venv
 # install python packages
-pip install -r ./requirements.txt
+#pip install -r ./requirements.txt
 
 # create database
-python3 ./manage.py setup_dev
+#python3 ./manage.py setup_dev
 
 
